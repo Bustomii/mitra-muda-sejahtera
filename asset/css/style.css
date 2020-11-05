@@ -1,0 +1,279 @@
+/* CSS Document */
+body {
+	font-family:sans-serif;
+	font-size:12px;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+#content {
+	padding:2px;
+}
+.atas {
+	font-size:14px;
+	font-weight:bold;
+	border-radius:4px 4px 0 0;
+    -moz-border-radius:4px 4px 0 0;
+    -webkit-border-radius:4px 4px 0 0;
+    padding:5px;
+    border:             #aaa solid 1px;
+    padding:            0.5em;
+    background:         #D3DCE3;
+    text-shadow:0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+.atas p {
+	margin:0px;
+}
+.atas #logo {
+	float:left;
+}
+.atas #judul {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	line-height:2px;
+}
+.atas #jam{
+	float:right;
+	margin-top:5px;
+}
+.tengah {
+    padding:2px;
+    border:             #aaa solid 1px;
+    background:         #eee;
+    text-shadow:0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+.tengah p {
+	margin:0px;
+}
+.tengah .tampil_data{
+	margin-top:40px;
+}
+.bawah {
+	margin:0px;
+	border-radius:0 0 4px 4px;
+    -moz-border-radius:0 0 4px 4px;
+    -webkit-border-radius:0 0 4px 4px;
+    border:             #aaa solid 1px;
+    background:         #D3DCE3;
+    text-shadow:0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+.bawah p {
+	line-height:1px;
+}
+.bawah #paging {
+	margin:5px;
+}
+.bawah #tombol_input {
+	margin:5px;
+}
+h1 {
+	font-size:26px;
+}
+h2 {
+	font-size:20px;
+}
+h3 {
+	font-size:14px;
+}
+
+/* Inputan */
+input, select, textarea {
+    font-size: 12px;
+	font-family:sans-serif; 
+}
+#form_input p{
+	margin:0px;
+}
+#form_input button {
+	margin:5px 200px;
+}
+
+button {
+	display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);  
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+
+button:hover {
+	background: url('images/bg_button.png') repeat-x 50% 50%;
+	color:#FFF;
+}
+
+input,select,textarea {
+	display: inline-block;
+	*display: inline;
+	/* IE7 inline-block hack */
+	*zoom: 1;
+	padding: 6px 10px;
+	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 10px;
+	background:         #D3DCE3;
+	text-shadow:0 1px 0 #fff;
+	border-radius:4px 4px  4px 4px;
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	border:             #aaa solid 1px;
+	-moz-box-shadow: 1px 1px 2px #fff inset;
+	-webkit-box-shadow: 1px 1px 2px #fff inset;
+	box-shadow: 1px 1px 2px #fff inset;
+	
+}
+label {
+	display: inline-block;
+	*display: inline;
+	/* IE7 inline-block hack */
+	*zoom: 1;
+	padding: 10px 10px;
+	margin-left:10px;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-weight:bold;
+	width:150px;
+	line-height: 10px;
+	
+	background:         #D3DCE3;
+	text-shadow:0 1px 0 #fff;
+	border-radius:4px 0  0 4px;
+	-moz-border-radius:4px 0 0 4px;
+	-webkit-border-radius:4px 0 0 4px;
+	border:             #aaa solid 1px;
+	-moz-box-shadow: 1px 1px 2px #fff inset;
+	-webkit-box-shadow: 1px 1px 2px #fff inset;
+	box-shadow: 1px 1px 2px #fff inset;
+}
+.hilite {
+	background:#fff;
+}
+/* table */
+#theTable{
+	margin-top:0px;
+	border-radius:4px 4px 4px 4px;
+    -moz-border-radius:4px 4px 4px 4px;
+    -webkit-border-radius:4px 4px 4px 4px;
+    border:             #aaa solid 1px;
+    background:         #eee;
+    text-shadow:0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+#theTable th,td {
+	padding:2px;
+    border:             #aaa solid 1px;
+    padding:            0.5em;
+    text-shadow:0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+#theTable th {
+	border-radius:4px 4px 0 0;
+    -moz-border-radius:4px 4px 0 0;
+    -webkit-border-radius:4px 4px 0 0;
+    padding:2px;
+    border:             #aaa solid 1px;
+    padding:            0.5em;
+    background:         #D3DCE3;
+    text-shadow:0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+	font-weight:bold;
+}
+#theTable td{
+	border:0px solid #5c9fe9;
+	font:normal 11px Verdana, Geneva, sans-serif;
+}
+.clickable {
+	cursor:pointer;
+}
+.stripe1 {
+    background-color:#ecf2f6;
+}
+.stripe2 {
+    background-color:#FFF;
+}
+.highlight {
+    background-color: #D3DCE3;
+    font-weight:bold;
+}
+
+/* Paging */
+.pagingpage-nomor{
+	background-color: #fff;
+	text-align:center;
+	width:20px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	float:left;
+	margin:1px;
+}
+.pagingpage-nomor a{
+	text-decoration:none;
+}
+.pagingpage-nomor a:hover{
+	text-decoration:underline;
+}
+.pagingpage{
+	background-color: #fff;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	float:left;
+	margin:1px;
+}
+.pagingpage a{
+	text-decoration:none;
+}
+.pagingpage a:hover{
+	text-decoration:underline;
+}
+/* paging */
+.pagination .digit{padding: 0 10px 0 10px; display: inline;}
+.pagination .digit:hover, .pagination .current{padding: 2px 10px 2px 10px; background: #fff; font-weight: 900; -moz-border-radius:5px}
